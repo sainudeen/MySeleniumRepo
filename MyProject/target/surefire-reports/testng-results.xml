@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-23T06:20:48Z" name="Surefire suite" finished-at="2024-08-23T06:23:25Z" duration-ms="156963">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-23T06:20:48Z" name="Surefire test" finished-at="2024-08-23T06:23:25Z" duration-ms="156963">
+      <class name="seleniumbasic.NewTourTestCase">
+        <test-method signature="VerifyNewTourLogin()[pri:0, instance:seleniumbasic.NewTourTestCase@4df828d7]" started-at="2024-08-23T11:52:55Z" name="VerifyNewTourLogin" finished-at="2024-08-23T11:53:25Z" duration-ms="29446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewTourLogin -->
+      </class> <!-- seleniumbasic.NewTourTestCase -->
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:50:48Z" name="setUpClass" finished-at="2024-08-23T11:50:48Z" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:50:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-23T11:51:16Z" duration-ms="27982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Login into the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Parameter Examples]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:51:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-23T11:51:38Z" duration-ms="22002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Login into the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Parameter Examples]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:51:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-23T11:52:02Z" duration-ms="23819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Login into the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Parameter Examples]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:52:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-23T11:52:25Z" duration-ms="22651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Login into the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Parameter Examples]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:52:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-23T11:52:55Z" duration-ms="30494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Login into the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Parameter Examples]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5e25a92e]" started-at="2024-08-23T11:52:55Z" name="tearDownClass" finished-at="2024-08-23T11:52:55Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

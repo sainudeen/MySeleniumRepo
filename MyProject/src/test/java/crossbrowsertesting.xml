@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="1">
+  <test name="Edge">
+   <parameter name="BrowserType" value="Edge" />
+    <classes>
+      <class name="seleniumbasic.CrossBrowserTesting"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Chrome">
+   <parameter name="BrowserType" value="Chrome" />
+    <classes>
+      <class name="seleniumbasic.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Chrome2">
+   <parameter name="BrowserType" value="Chrome" />
+    <classes>
+      <class name="seleniumbasic.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Chrome3">
+   <parameter name="BrowserType" value="Chrome" />
+    <classes>
+      <class name="seleniumbasic.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="seleniumbasic.TestNGAnnotation"/>
+    </classes>     
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="seleniumbasic.TestNGAnnotation"/>
+    </classes>     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
